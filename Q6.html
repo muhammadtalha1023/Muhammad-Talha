@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeustion 6</title>
+    <script>
+        function sortarr(numbers,newnum,b)
+        {
+        for(let a=0;a<numbers.length;a++)
+        {
+            console.log(a);
+            newnum[a]=numbers[numbers.length+b];
+            b=b-1;
+        }
+        return newnum;
+    }
+    const b=-1;
+    const numbers=[5, 13, 1, 44, 32, 15, 500];
+    const newnum=[]
+    console.log(sortarr(numbers,newnum,b));
+
+    </script>
+</head>
+<body>
+    <h1>Q6.Sort an array from lowest to highest</h1>
+</body>
+</html>

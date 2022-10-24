@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 9</title>
+    <script>
+        const number = parseInt(prompt("Enter a number : "));
+       
+        let valid = DivisibleByTen(number);
+       
+        if(valid == true)
+        {
+            console.log("The number " + number + " is divisible by 10.");
+        }
+        else
+        {
+            console.log("The number " + number + " is not divisible by 10");
+        }
+
+       
+        function DivisibleByTen(num)
+        {
+            if(num%10 == 0)
+            {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Q9. Return a Boolean if a number is divisible by 10</h1>
+</body>
+</html>
